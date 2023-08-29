@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    margin: 5px 0px;
+    background-color: rgb(245, 169, 82);
+}
+
+.cell {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    
+}
