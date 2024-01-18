@@ -1,19 +1,31 @@
+html {
+    background-color: darkolivegreen;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.row {
-    display: flex;
-    margin: 5px 0px;
-    background-color: rgb(245, 169, 82);
-}
-
-.cell {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+.oneFoot {
     display: flex;
     flex: 1;
-    padding: 10px;
-    
+    padding: 1vh;
+}
+
+.fullRow {
+    display: flex;
+    margin: 5px 0px;
+    background-color: rgb(179, 118, 49);
+    border-radius: 10px;
+}
+.beet {
+    border-radius: 10px;
+    background-color: rgb(110, 51, 237);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
 }
